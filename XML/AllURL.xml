@@ -1,0 +1,24 @@
+<AllMenu>
+	<Proj name = "Test">
+		<v name="1.3">
+			<vc name="local">
+				<ME></ME>
+				<MA></MA>
+				<TE></TE>
+				<TA></TA>
+			</vc>
+			<vc name="A">
+				<ME></ME>
+				<MA></MA>
+				<TE></TE>
+				<TA></TA>
+			</vc>
+			<vc name="B">
+				<ME></ME>
+				<MA></MA>
+				<TE></TE>
+				<TA></TA>
+			</vc>
+		</v>
+	</Proj>
+</AllMenu>

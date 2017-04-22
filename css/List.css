@@ -1,0 +1,396 @@
+
+
+body{
+	background-image:url("../img/Pattern.png");
+	  font-family: 'PT Sans', sans-serif;
+	padding: 0;
+    margin: 0;
+	
+}
+*:focus {
+    outline: none;
+}
+
+.Container {
+   max-height: 421px;
+    width: 316px;
+   /*  border: solid; */
+  /*   border-color: #000; */
+    position: relative;
+}
+
+
+h3{
+	text-align:center;
+}
+
+.Container_body p{
+   text-align: center;
+    padding-top: 15%;
+    color: #fff;
+    font-size: 21px;
+}
+
+.box{
+	     height: 100px;
+    width: 99px;
+    background: #f00;
+    margin: 1px 0px 0 1px;
+    border-radius: 4px;
+    float: left;
+	position:relative;
+	cursor:pointer;
+    overflow: hidden;
+	
+}
+
+.shadow , .sEdite{
+	    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    top: -100px;
+}
+.sEdite{
+	  top: 0;
+	  display:none;
+}
+.sEdite input{
+	   background: rgba(0, 0, 0, 0.74);
+    width: 63px;
+    /* margin: auto; */
+    position: absolute;
+    top: 22%;
+    left: 12%;
+    padding: 4px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 9px;
+	border-width: 0px;
+
+	
+}
+
+.deleteAlertT{
+
+font-size: 10px !important;
+    padding-top: 22% !important;
+}
+.AttIcon{
+    position: absolute;
+    top: 6%;
+    left: 46%;
+    font-size: 24px;
+    color: red;
+}
+
+.eButton{
+	
+    width: 92%;
+    height: 33%;
+    background: #32b137;
+    margin: auto;
+    position: absolute;
+    bottom: 5%;
+    border-radius: 8px;
+    text-align: center;
+    left: 4px;
+	}
+.eButtonYes{
+      width: 34%;
+    height: 29%;
+    background: #000000;
+    /* margin: auto; */
+    position: absolute;
+    bottom: 5%;
+    border-radius: 29px;
+    text-align: center;
+    left: 11px;
+    color: #f00;
+}
+.No{
+color:#27ef11;
+   
+    left: 55px;
+}
+.eButton span ,.eButtonYes span{
+	position: absolute;
+    left: 28%;
+    top: 20%;
+}
+.eButtonYes span{
+	  left: 23%;
+}
+  .eButtonYes:hover{
+   border: solid 2px rgba(255, 0, 0, 0.43);
+}
+.No:hover{
+   border: solid 2px rgba(31, 255, 0, 0.43);
+}
+
+.box  .settingIcon{
+    width: 17px;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    cursor: pointer;
+    opacity: 0.3;
+    display: none;
+}
+.box:hover  img{
+
+    display: block;
+}
+.box  img:hover{
+
+    opacity: 1;
+    
+}
+
+
+
+
+
+
+.Line{
+	background:#fff;
+	height:1px;
+}
+.shadow h6{
+	    text-align: center;
+    margin: 17px 0;
+}
+
+.doneIcon{
+    position: absolute;
+    top: 23%;
+    left: 28%;
+    width: 16px;
+}
+
+.Container_body{
+	margin: auto;
+    width: 96%;
+	overflow: auto;
+    height: 84%;
+}
+
+
+.Container_body::-webkit-scrollbar ,.Footer::-webkit-scrollbar,.AllXML::-webkit-scrollbar   {
+    width: 2px;
+}
+.Container_body::-webkit-scrollbar-track,.Footer::-webkit-scrollbar-track,.AllXML::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(250,250,250,0.3);
+}
+.Container_body::-webkit-scrollbar-thumb ,.Footer::-webkit-scrollbar-thumb,.AllXML::-webkit-scrollbar-thumb  {
+ border-radius: 350px;
+    background-color: #585050;
+    outline: 1px solid slategrey;
+    -webkit-box-shadow: inset 0 0 6px 
+}
+.Color1 {
+background-color: #2daebf;
+}
+.Color2 {
+    background-color: #eb6b22;
+}
+.Color3 {
+  background-color: #276f9e;
+}
+
+.Color4{
+	background-color:#45b93c;
+}
+.Color5 {
+background-color: #e33100;
+}
+.Color6 {
+background-color: #a9014b;
+}
+.Color7 {
+background-color: #ff5c00;
+}
+.Color8 {
+background-color: #ffb515;
+}
+.add {
+background: #211f1f;
+}
+
+/********* List Linke css */
+
+.AllLinkeDiv{
+	    margin: 0 0 2% 3%;
+	float:left;
+	
+}
+.inputeStyle{
+	width: 45%;
+	 padding: 5px;
+	  border: 1px solid #F1B720;
+    border-radius: 5px;
+    color: #333;
+	
+}
+
+.inputeStyle:hover {
+    border-radius: 2px
+}
+
+.inputeStyle:focus {
+    outline: none;
+    border-radius: 2px;
+    border-color: #EBD292;
+}
+
+#ButtonSaveLinkes , #ButtonAddLinkes{
+	    float: left;
+    width: 85%;
+    line-height: 25px;
+    height: 31px;
+    color: #fff;
+    border-radius: 6px;
+    background-color: green;
+    margin: 1% 5%;
+    text-align: center;
+	cursor:pointer;
+}
+#ButtonSaveLinkes span , #ButtonAddLinkes span ,.SureBatton span{
+	 display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+#ButtonAddLinkes{
+     background-color: #4c4444;
+    margin-bottom: 0px;
+    margin-top: 14px;
+}
+
+
+/* Border ---------- */
+.blue{
+border-color: #2daebf;
+}
+.report {
+    border-color: #eb6b22;
+}
+.jira {
+  border-color: #276f9e;
+}
+.red {
+border-color: #e33100;
+}
+.magenta {
+border-color: #a9014b;
+}
+.orange {
+border-color: #ff5c00;
+}
+.yellow {
+border-color: #ffb515;
+}
+
+.deleteimge{
+	       width: 11px;
+    cursor: pointer;
+    /* float: left; */
+    margin: -2.2px 5px;
+    opacity: 0.1;
+}
+.deleteimge:hover{
+	opacity: 1;
+}
+
+.SureBatton{
+	background: green;
+    width: 83%;
+    height: 28px;
+    border-radius: 8px;
+    position: absolute;
+    opacity: 0.9;
+    color: #fff;
+    text-align: center;	
+	 cursor: pointer;
+}
+
+
+.Footer{
+	max-height: 93px;
+    min-height: 72px;
+    background-color: #2c3e50;
+    width: 100%;
+    overflow: auto;
+    margin-top: 15%;
+}
+
+
+fieldset {
+    font-family: 'PT Sans', sans-serif;
+    height: 44px;
+    margin: 3px 7px 9px 11px;
+	-webkit-padding-before: 0;
+  
+}
+
+.AllXML{
+	
+	color: #fff;
+    height: 79%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    resize: none;
+    font-size: 10px;
+	
+}
+legend {
+    font-size: 11px;
+    color: #8c8c8c;
+}
+
+.XmlButtondiv{
+	position: absolute;
+    right: 6px;
+    text-align: center;
+    font-size: 11px;
+    bottom: 10.3%;
+}
+.XmlSelectAll {
+	background: #000000;
+    height: 16px;
+    color: #969494;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.XmlSave{
+	color: red;
+    background: #000000;
+    height: 16px;
+    color: #126b02;
+    padding: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    margin-top: 3px;
+    margin: auto;
+    margin-top: 3px;
+}
+
+
+
+ .cursor{
+cursor: pointer;	 
+ }
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
